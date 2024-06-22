@@ -34,45 +34,39 @@ font-size: 16px;
 line-height: 25px;
 font-family: "Roboto", sans-serif;   
 }
-.main-focus{
+.mission-title{
 color: #BDBDBD;
 font-weight: 300;
 font-size: 64px;
 line-height: 64px;
 font-family: "Roboto", sans-serif;
 }
-.main1{
-color: #F2F2F2;
-font-weight: 900;
-font-size: 200px;
-line-height: 234.38px;
-font-family: "Roboto", sans-serif;  
-}
-.lorem-ipsum{
+
+.mission-text{
 color: #333333;
 font-weight: 400;
 font-size: 22px;
 line-height: 36px;
 font-family: "Roboto", sans-serif;
 }
-.main2{
+.mission-number{
 color: #F2F2F2;
 font-weight: 900;
 font-size: 200px;
 line-height: 234.38px;
 font-family: "Roboto", sans-serif;   
 }
-.lorem-ipsum2{
-color: #333333;
-font-weight: 400;
-font-size: 22px;
-line-height: 36px;
-font-family: "Roboto", sans-serif;    
-}
-.our-projects{
+.projects-title{
 color: #BDBDBD;
 font-weight: 300;
 font-size: 64px;
 line-height: 64px;
 font-family: "Roboto", sans-serif;   
+}
+.btn{
+    font-family: "Roboto", sans-serif;   
+    font-size: 12px;
+    line-height: 12px;   
+    color: #333333;
+    letter-spacing: 2px;
 }
