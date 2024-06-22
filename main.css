@@ -1,0 +1,78 @@
+.nav-item{
+color: #333333;
+font-size: 12px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 2px;
+}
+.hero-title-span{
+color: #BDBDBD;
+font-weight: 300;
+font-size: 64px;
+line-height: 64px;
+font-family: "Roboto", sans-serif;
+}
+.hero-title{
+color: #333333;
+text-shadow: 0px 4px 4px 0px #00000040;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+}
+.about-title{
+color: #BDBDBD;
+font-weight: 300;
+font-size: 64px;
+line-height: 64px;
+font-family: "Roboto", sans-serif;
+}
+.about-text{
+font-weight: 300;
+font-size: 16px;
+line-height: 25px;
+font-family: "Roboto", sans-serif;   
+}
+.main-focus{
+color: #BDBDBD;
+font-weight: 300;
+font-size: 64px;
+line-height: 64px;
+font-family: "Roboto", sans-serif;
+}
+.main1{
+color: #F2F2F2;
+font-weight: 900;
+font-size: 200px;
+line-height: 234.38px;
+font-family: "Roboto", sans-serif;  
+}
+.lorem-ipsum{
+color: #333333;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+font-family: "Roboto", sans-serif;
+}
+.main2{
+color: #F2F2F2;
+font-weight: 900;
+font-size: 200px;
+line-height: 234.38px;
+font-family: "Roboto", sans-serif;   
+}
+.lorem-ipsum2{
+color: #333333;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+font-family: "Roboto", sans-serif;    
+}
+.our-projects{
+color: #BDBDBD;
+font-weight: 300;
+font-size: 64px;
+line-height: 64px;
+font-family: "Roboto", sans-serif;   
+}
