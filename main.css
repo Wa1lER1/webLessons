@@ -1,3 +1,18 @@
+p,div,h3,ul,h2,body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+
 .nav-item{
 color: #333333;
 font-size: 12px;
@@ -20,6 +35,7 @@ font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 64px;
 line-height: 64px;
+
 }
 .about-title{
 color: #BDBDBD;
@@ -27,12 +43,14 @@ font-weight: 300;
 font-size: 64px;
 line-height: 64px;
 font-family: "Roboto", sans-serif;
+margin-bottom: 20px;
 }
 .about-text{
 font-weight: 300;
 font-size: 16px;
 line-height: 25px;
-font-family: "Roboto", sans-serif;   
+font-family: "Roboto", sans-serif;  
+margin-bottom: 50px; 
 }
 .mission-title{
 color: #BDBDBD;
@@ -40,6 +58,7 @@ font-weight: 300;
 font-size: 64px;
 line-height: 64px;
 font-family: "Roboto", sans-serif;
+margin-bottom: 60px;
 }
 
 .mission-text{
@@ -48,6 +67,7 @@ font-weight: 400;
 font-size: 22px;
 line-height: 36px;
 font-family: "Roboto", sans-serif;
+min-width: 280px;
 }
 .mission-number{
 color: #F2F2F2;
@@ -61,7 +81,8 @@ color: #BDBDBD;
 font-weight: 300;
 font-size: 64px;
 line-height: 64px;
-font-family: "Roboto", sans-serif;   
+font-family: "Roboto", sans-serif;  
+margin-bottom: 60px; 
 }
 .btn{
     font-family: "Roboto", sans-serif;   
@@ -69,4 +90,160 @@ font-family: "Roboto", sans-serif;
     line-height: 12px;   
     color: #333333;
     letter-spacing: 2px;
+    width: 222px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 18px;
+    background-color: white;
+}
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.header{
+    display: flex;
+    gap: 330px;
+    padding: 24px 0 ;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 61px;
+    list-style: none;
+}
+
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 122px;
+}
+.hero{
+    padding-bottom: 120px;
+}
+
+
+.about{
+    padding: 30px 70px 30px 100px;
+display: flex;
+gap: 30px;
+align-items: center;
+padding-bottom: 120px;
+}
+.images-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.mission{
+    padding-bottom: 120px;
+}
+.mission-list{
+    display: flex;
+    gap: 187px;
+}
+.mission-list-item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.first-project-list,.second-project-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+.first-project-item{
+    position: relative;
+}
+.projects-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hero-wrap{
+    position: relative;
+}
+.transparent-bg{
+    background-color: transparent;
+}
+.projects-btn{
+    margin-left: auto;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+footer{
+    background-color: #2C2C2C;
+    padding-top: 60px;
+    
+}
+.footer-title{
+    font-weight: bold;
+    font-style: 16px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 25px;
+}
+.main-list{
+    display: flex;
+
+    justify-content: space-between;
+}
+.information-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.information-list-item,.contacts-list-item{
+    margin-bottom: 0;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.contacts-list{
+    display: flex;
+  flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex-grow{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rights{
+    border-top: 1px solid #D8D8D850;
+    padding: 24px 0;
+    margin-top: 60px;
+}
+.rights-text{
+    color: #C8C8C850;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
