@@ -1,7 +1,25 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     padding: 0;
 }
+=======
+p,div,h3,ul,h2,body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 .nav-item{
 color: #333333;
 font-size: 12px;
@@ -24,6 +42,7 @@ font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 64px;
 line-height: 64px;
+
 }
 .about-title{
 color: #BDBDBD;
@@ -37,7 +56,11 @@ margin-bottom: 20px;
 font-weight: 300;
 font-size: 16px;
 line-height: 25px;
+<<<<<<< HEAD
 font-family: "Roboto", sans-serif;
+=======
+font-family: "Roboto", sans-serif;  
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 margin-bottom: 50px; 
 }
 .mission-title{
@@ -69,7 +92,8 @@ color: #BDBDBD;
 font-weight: 300;
 font-size: 64px;
 line-height: 64px;
-font-family: "Roboto", sans-serif;   
+font-family: "Roboto", sans-serif;  
+margin-bottom: 60px; 
 }
 .btn{
     font-family: "Roboto", sans-serif;   
@@ -77,6 +101,7 @@ font-family: "Roboto", sans-serif;
     line-height: 12px;   
     color: #333333;
     letter-spacing: 2px;
+<<<<<<< HEAD
 }
 .hero{
     display: flex;
@@ -88,11 +113,32 @@ gap: 50px;
 .container{
     width: 1170px;
     margin: 0 auto;
+=======
+    width: 222px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 18px;
+    background-color: white;
+}
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 }
 .header{
     display: flex;
     gap: 330px;
+<<<<<<< HEAD
     padding: 24px 0;
+=======
+    padding: 24px 0 ;
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
     align-items: center;
 }
 .nav-list{
@@ -100,6 +146,12 @@ gap: 50px;
     gap: 61px;
     list-style: none;
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 .hero{
     display: flex;
     align-items: center;
@@ -108,12 +160,21 @@ gap: 50px;
 .hero{
     padding-bottom: 120px;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 .about{
     padding: 30px 70px 30px 100px;
 display: flex;
 gap: 30px;
 align-items: center;
+<<<<<<< HEAD
 padding-bottom: 120px; 
+=======
+padding-bottom: 120px;
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 }
 .images-wrap{
     display: flex;
@@ -135,4 +196,96 @@ padding-bottom: 120px;
     display: flex;
     gap: 30px;
     align-items: center;
+<<<<<<< HEAD
+=======
+}
+
+.first-project-list,.second-project-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+.first-project-item{
+    position: relative;
+}
+.projects-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hero-wrap{
+    position: relative;
+}
+.transparent-bg{
+    background-color: transparent;
+}
+.projects-btn{
+    margin-left: auto;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+footer{
+    background-color: #2C2C2C;
+    padding-top: 60px;
+    
+}
+.footer-title{
+    font-weight: bold;
+    font-style: 16px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 25px;
+}
+.main-list{
+    display: flex;
+
+    justify-content: space-between;
+}
+.information-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.information-list-item,.contacts-list-item{
+    margin-bottom: 0;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.contacts-list{
+    display: flex;
+  flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex-grow{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rights{
+    border-top: 1px solid #D8D8D850;
+    padding: 24px 0;
+    margin-top: 60px;
+}
+.rights-text{
+    color: #C8C8C850;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+>>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 }
