@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .nav-item{
 color: #333333;
 font-size: 12px;
@@ -27,12 +31,14 @@ font-weight: 300;
 font-size: 64px;
 line-height: 64px;
 font-family: "Roboto", sans-serif;
+margin-bottom: 20px;
 }
 .about-text{
 font-weight: 300;
 font-size: 16px;
 line-height: 25px;
-font-family: "Roboto", sans-serif;   
+font-family: "Roboto", sans-serif;
+margin-bottom: 50px; 
 }
 .mission-title{
 color: #BDBDBD;
@@ -40,6 +46,7 @@ font-weight: 300;
 font-size: 64px;
 line-height: 64px;
 font-family: "Roboto", sans-serif;
+margin-bottom: 60px;
 }
 
 .mission-text{
@@ -48,6 +55,7 @@ font-weight: 400;
 font-size: 22px;
 line-height: 36px;
 font-family: "Roboto", sans-serif;
+min-width: 280px;
 }
 .mission-number{
 color: #F2F2F2;
@@ -69,4 +77,62 @@ font-family: "Roboto", sans-serif;
     line-height: 12px;   
     color: #333333;
     letter-spacing: 2px;
+}
+.hero{
+    display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-direction: column;
+gap: 50px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    gap: 330px;
+    padding: 24px 0;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 61px;
+    list-style: none;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 122px;
+}
+.hero{
+    padding-bottom: 120px;
+}
+.about{
+    padding: 30px 70px 30px 100px;
+display: flex;
+gap: 30px;
+align-items: center;
+padding-bottom: 120px; 
+}
+.images-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.mission{
+    padding-bottom: 120px;
+}
+.mission-list{
+    display: flex;
+    gap: 187px;
+}
+.mission-list-item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
