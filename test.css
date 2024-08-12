@@ -23,3 +23,20 @@
     flex-wrap: wrap;
     gap: 14px;
 }
+
+
+.parent{
+    width: 300px;
+    height: 600px;
+    background-color: blueviolet;
+
+}
+.parent-item{
+    display: flex;
+gap: 10px;
+}
+.children{
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
