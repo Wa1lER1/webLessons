@@ -1,0 +1,312 @@
+p,div,h3,ul,h2,body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1264px;
+    margin: 0 auto;
+    background-color: white;
+}
+body{
+    background-color: black;
+}
+.security-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #0D0D0D;
+}
+.security-img{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.security-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #0D0D0D;
+    margin-bottom: 24px;
+}
+.security-button{
+    width: 404px;
+    height: 80px;
+    border-radius: 8px;
+    padding: 24px 24px 24px 32px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(85, 86, 96, 0.051);
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color:#0D0D0D;
+}
+.security-button-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.flex{
+    display: flex;
+    gap: 64px;
+    padding: 64px;
+}
+.hero{
+    padding: 64px;
+    background-color: white;
+}
+.hero-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #0D0D0D;
+    margin-bottom: 16px;
+}
+.hero-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #0D0D0D;
+}
+.hero-flex{
+    display: flex;
+    gap: 64px;
+}
+.ceo-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #0D0D0D;
+    margin-bottom: 32px;
+}
+.ceo-position{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #1C2541;
+}
+.ceo-name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #1C2541;
+}
+.ceo-list{
+    display: flex;
+    gap: 64px;
+}
+.ceo{
+    background-color: white;
+}
+.ceo-list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.ceo-button{
+    padding: 12px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #091CE6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.ceo-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #0D0D0D;
+
+}
+.hero-text{
+    padding: 64px;
+    background-color: white;
+}
+.ceo-flex{
+    flex-direction: row;
+    display: flex;
+    margin-top: 32px;
+    gap: 64px;
+}
+.appraisers{
+    background-color: white;
+}
+.appraisers-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #0D0D0D;
+    margin-bottom: 32px;
+}
+.appraisers-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #0D0D0D;
+}
+.appraisers-text-list{
+    display: flex;
+    gap: 64px;
+}
+.appraisers-img-list{
+    display: flex;
+    gap: 27px;
+    margin-top: 16px;
+}
+.benefits-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #0D0D0D;
+    margin-bottom: 16px;
+}
+.benefits-left-wrap{
+    min-width: 536px;
+}
+.benefits-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #0D0D0D;
+}
+.benefits{
+    background-color: white;
+}
+.benefits-img{
+    margin-bottom: 8px;
+}
+.benefits-list-item-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #0D0D0D;
+    margin-bottom: 8px;
+}
+.benefits-text-list-item{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0D0D0D;
+}
+.benefits-container{
+    display: flex;
+    gap: 64px;
+}
+.benefits-list-item{
+    margin-bottom: 32px;
+}
+.info{
+    background-color: white;
+}
+.info-container{
+    display: flex;
+    gap: 700px;
+}
+.info-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #0D0D0D;
+}
+.info-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #1C2E39;
+}
+.info-button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #091CE6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    padding: 12px 0px;
+    cursor: pointer;
+}
+.info-list{
+    display: flex;
+    gap: 16px;
+}
+.info-item{
+    min-width: 624px;
+    padding: 64px 0px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.media{
+    background-color: white;
+}
+.media-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0E171C;
+}
+.media-button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: Blue;
+    display: flex;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    padding: 12px;
+}
+.media-list{
+    display: flex;
+    gap: 24px;
+}
+.media-item{
+    min-width: 173px;
+    background-color: grey;
+    padding: 40px 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}

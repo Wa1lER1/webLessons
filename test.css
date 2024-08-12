@@ -1,0 +1,25 @@
+.container{
+    width: 716px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(254, 213, 137);
+}
+.list-item{
+    width: 351px;
+    height: 197px;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}

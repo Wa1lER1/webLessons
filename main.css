@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-body{
-    margin: 0;
-    padding: 0;
-}
-=======
 p,div,h3,ul,h2,body{
     margin: 0;
     padding: 0;
@@ -19,7 +13,6 @@ a{
 }
 
 
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 .nav-item{
 color: #333333;
 font-size: 12px;
@@ -42,7 +35,16 @@ font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 64px;
 line-height: 64px;
-
+}
+.hero-title:hover .hero-title-span{
+    color: green;
+    cursor: pointer;
+    transition: color 3s linear 2s;
+}
+.hero-title:hover{
+    color: green;
+    cursor: pointer;
+    transition: color 3s linear 2s;
 }
 .about-title{
 color: #BDBDBD;
@@ -56,11 +58,7 @@ margin-bottom: 20px;
 font-weight: 300;
 font-size: 16px;
 line-height: 25px;
-<<<<<<< HEAD
-font-family: "Roboto", sans-serif;
-=======
 font-family: "Roboto", sans-serif;  
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 margin-bottom: 50px; 
 }
 .mission-title{
@@ -101,19 +99,6 @@ margin-bottom: 60px;
     line-height: 12px;   
     color: #333333;
     letter-spacing: 2px;
-<<<<<<< HEAD
-}
-.hero{
-    display: flex;
-justify-content: space-around;
-align-items: flex-start;
-flex-direction: column;
-gap: 50px;
-}
-.container{
-    width: 1170px;
-    margin: 0 auto;
-=======
     width: 222px;
     height: 71px;
     display: flex;
@@ -129,29 +114,27 @@ gap: 50px;
     width: 1170px;
     margin: 0 auto;
 
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 }
 .header{
     display: flex;
     gap: 330px;
-<<<<<<< HEAD
-    padding: 24px 0;
-=======
     padding: 24px 0 ;
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
     align-items: center;
+}
+.header:hover .nav-item{
+    color: blue;
+    font-size: 30px;
+    text-decoration: underline;
+    transition: font-size 3s linear, color 3s linear 3s;
 }
 .nav-list{
     display: flex;
     gap: 61px;
     list-style: none;
 }
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 .hero{
     display: flex;
     align-items: center;
@@ -160,21 +143,18 @@ gap: 50px;
 .hero{
     padding-bottom: 120px;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 .about{
     padding: 30px 70px 30px 100px;
 display: flex;
 gap: 30px;
 align-items: center;
-<<<<<<< HEAD
-padding-bottom: 120px; 
-=======
 padding-bottom: 120px;
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
+}
+.text-wrap:hover .about-title{
+    color: purple;
+    cursor: pointer;
+    font-size: 100px;
+    transition: font-size 3s linear 2s, ;
 }
 .images-wrap{
     display: flex;
@@ -192,12 +172,18 @@ padding-bottom: 120px;
     display: flex;
     gap: 187px;
 }
+.mission-list:hover .mission-number{
+    color: green;
+}
+.mission-list:hover .mission-text{
+    cursor: pointer;
+    color: aqua;
+    font-size: 50px;
+}
 .mission-list-item{
     display: flex;
     gap: 30px;
     align-items: center;
-<<<<<<< HEAD
-=======
 }
 
 .first-project-list,.second-project-list{
@@ -230,7 +216,10 @@ padding-bottom: 120px;
     background-color: #2C2C2C;
     color: white;
 }
-
+.projects:hover .projects-btn{
+color: black;
+background-color: gold;
+}
 footer{
     background-color: #2C2C2C;
     padding-top: 60px;
@@ -287,5 +276,4 @@ footer{
     line-height: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
->>>>>>> 26bdb5f3ada57f83c57e10755353d36fbc77de92
 }
