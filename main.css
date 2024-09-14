@@ -279,3 +279,9 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
+.footer:hover .footer-title{
+    font-size: 50px;
+    cursor: pointer;
+    color: grey;
+    transition: font-size 3s linear, color 3s linear 3s;
+}
