@@ -171,12 +171,23 @@ input::-webkit-inner-spin-button {
   font-size: 16px;
   line-height: 24px;
   color: #2E2F42;
+  letter-spacing: 2%;
+}
+.nav-item:hover{
+  cursor: pointer;
+  color: #404BBF;
 }
 .header-info{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: #434455;
+  letter-spacing: 2%;
+}
+.header-info:hover{
+  cursor: pointer;
+  color: #404BBF;
 }
 .nav-list{
   display: flex;
@@ -199,4 +210,34 @@ input::-webkit-inner-spin-button {
   display: flex;
   gap: 40px;
   align-items: center;
+}
+.hero-title{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  color: #FFFFFF;
+  width: 500px;
+  margin: 0 auto;
+}
+.hero-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  background-color: #4D5AE5;
+  color: white;
+  padding: 16px 32px;
+  gap: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.hero{
+  padding: 188px 0;
+  background: url("./images/herobg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
