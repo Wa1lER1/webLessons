@@ -220,6 +220,7 @@ input::-webkit-inner-spin-button {
   color: #FFFFFF;
   width: 500px;
   margin: 0 auto;
+  text-align: center;
 }
 .hero-button{
   font-family: "Roboto", sans-serif;
@@ -237,7 +238,7 @@ input::-webkit-inner-spin-button {
 }
 .hero{
   padding: 188px 0;
-  background: url("./images/herobg.png");
+  background: linear-gradient(#2E2F42B2,#2E2F42B2),url("./images/herobg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
