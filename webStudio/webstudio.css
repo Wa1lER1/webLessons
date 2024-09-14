@@ -221,6 +221,8 @@ input::-webkit-inner-spin-button {
   width: 500px;
   margin: 0 auto;
   text-align: center;
+
+  
 }
 .hero-button{
   font-family: "Roboto", sans-serif;
