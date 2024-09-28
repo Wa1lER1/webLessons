@@ -106,7 +106,7 @@ section {
 }
 body {
   line-height: 1;
-  background-color: #161c2a;
+  background-color: white;
 }
 menu,
 ol,
@@ -243,4 +243,95 @@ input::-webkit-inner-spin-button {
   background: linear-gradient(#2E2F42B2,#2E2F42B2),url("./images/herobg.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.title-advantages{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;letter-spacing: 2%;
+  color: #2E2F42;
+  margin-bottom: 8px;
+}
+.text-advantages{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.advantages-list{
+  display: flex;
+  gap: 24px;
+}
+.wrap-img{
+  background-color: #F4F4FD;
+  padding: 24px 0;
+  border: 1px solid #8E8F99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.advantages{
+  padding: 120px 0;
+}
+/* .item{
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+} */
+.team{
+  padding: 120px 0;
+  background-color: #F4F4FD;
+}
+.team-title{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  color: #2E2F42;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.name{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2E2F42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.role{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+  text-align: center;
+}
+.team-list{
+  display: flex;
+  gap: 24px;
+}
+.team-wrap{
+  background-color: white;
+  padding: 32px 16px;
+}
+.social-list{
+  display: flex;
+  gap: 24px;
+}
+.social-item{
+  background-color: #4D5AE5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
