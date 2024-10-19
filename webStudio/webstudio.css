@@ -522,6 +522,16 @@ input::-webkit-inner-spin-button {
   background-color: white;
   width: 408px;
   height: 584px;
+  padding: 74px 24px;
+}
+.modal-title{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2E2F42;
+  text-align: center;
 }
 .hide-modal{
   display: none;
