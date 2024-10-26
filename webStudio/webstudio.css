@@ -536,3 +536,92 @@ input::-webkit-inner-spin-button {
 .hide-modal{
   display: none;
 }
+.input-label{
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
+  color: #8E8F99;
+  margin-bottom: 4px;
+}
+.input{
+  outline: none;
+  border: 1px solid #2E2F4266;
+  padding: 11px 38px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.input:hover,.input:focus{
+  border-color: #404BBF;
+}
+.input-wrap{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+
+}
+.input:hover + .icon{
+  fill: #404BBF;
+}
+.input:focus + .icon{
+  fill: #404BBF;
+}
+.commentField{
+  resize: none;
+  width: 100%;
+  height: 120px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-color: #2E2F4266;
+  outline: none;
+}
+.commentField::placeholder{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: #75757580;
+}
+.commentField:hover{
+  border-color: #404BBF;
+}
+.commentField:hover,.commentField:focus{
+  border-color: #404BBF;
+}
+.privacy{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.privacy-text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  color: #757575;
+}
+.privacy-link{
+  
+}
