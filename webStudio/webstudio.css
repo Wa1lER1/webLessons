@@ -649,6 +649,7 @@ input::-webkit-inner-spin-button {
   margin-top: 24px;
 }
 .close-block{
+  cursor: pointer;
   background-color: #E7E9FC;
   width: 24px;
   height: 24px;
