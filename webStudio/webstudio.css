@@ -153,10 +153,12 @@ input::-webkit-inner-spin-button {
 .container{
   width: 100%;
   margin: 0 auto;
+  padding: 0 16px;
 }
 @media (min-width: 768px) {
   .container{
     width: 736px;
+    padding: 0px;
   }
 }
 @media (min-width: 1440px) {
@@ -262,12 +264,14 @@ display: none;
     flex-direction: row;
     gap: 40px;
   }
+  
 }
+
 .hero-title{
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
+  font-size: 36px;
+  line-height: 40px;
   letter-spacing: 2%;
   color: #FFFFFF;
 
@@ -288,21 +292,44 @@ display: none;
   gap: 10px;
   display: block;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-top: 72px;
 }
 .hero{
-  padding: 188px 0;
+  padding: 72px 0;
   background: linear-gradient(#2E2F42B2,#2E2F42B2),url("./images/herobg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (min-width:768px) {
+.hero-button{
+  margin-top: 36px;
+}
+.hero-title{
+  font-size: 56px;
+  line-height: 60px;
+  width: 503px;
+}
+.hero{
+  padding: 112px 0;
+}
+}
+@media (min-width: 1440px){
+  .hero-button{
+    margin-top: 48px;
+  }
+  .hero{
+    padding: 188px 0;
+  }
+}
 .title-advantages{
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;letter-spacing: 2%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;letter-spacing: 2%;
   color: #2E2F42;
   margin-bottom: 8px;
+  text-align: center;
+  
 }
 .text-advantages{
   font-family: "Roboto", sans-serif;
@@ -313,21 +340,46 @@ display: none;
   color: #434455;
 }
 .advantages-list{
-
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 .wrap-img{
   background-color: #F4F4FD;
   padding: 24px 0;
   border: 1px solid #8E8F99;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
 }
 .advantages{
+  padding: 96px 0;
+}
+@media (min-width :768px) {
+.advantages-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.item{
+  width: 356px;
+
+}
+}
+@media (min-width :1440px) {
+.wrap-img{
+  display: flex;
+}
+.item{
+  width: 264px;
+}
+.advantages{
   padding: 120px 0;
 }
-/* .item{
+}
+/*.item{
   display: flex;
   gap: 8px;
   flex-direction: column;
