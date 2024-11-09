@@ -435,9 +435,6 @@ display: none;
   flex-direction: column;
 }
 @media (min-width :768px) {
-  .team{
-    padding: 120px 12px;
-  }
   .team-list{
   display: flex;
   flex-direction: row;
@@ -449,7 +446,11 @@ display: none;
     width: 264px;
   }
 }
-
+@media (min-width :1440px) {
+  .team{
+    padding: 120px 12px;
+  }
+}
 .team-wrap{
   background-color: white;
   padding: 32px 16px;
@@ -506,15 +507,15 @@ display: none;
 
 }
 .portfolio{
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .portfolio-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px;
 }
 .portfolio-item{
-  width: 360px;
+  width: 100%;
 }
 .portfolio-img{
   width: 100%;
@@ -525,6 +526,26 @@ display: none;
 }
 .portfolio-item:hover > .portfolio-text-wrap{
   box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+@media (min-width :768px) {
+  .portfolio-item{
+    width: 356px;
+  }
+  .portfolio-list{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+  }
+}
+@media (min-width :1440px) {
+  .portfolio-list{
+    display: flex;
+    gap: 48px 24px;
+  }
+  .portfolio{
+    padding: 120px;
+  }
 }
 .overlay-wrap{
   position: relative;
@@ -550,10 +571,14 @@ display: none;
 }
 .footer{
   background-color: #2E2F42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 .footer-flex{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
 }
 .footer-logo-span{
   font-family: "Raleway", sans-serif;
@@ -579,6 +604,7 @@ display: none;
   letter-spacing: 2%;
   color: white;
   margin-bottom: 16px;
+  text-align: center;
 }
 .footer-social-item{
   background-color: #4D5AE5;
@@ -606,6 +632,9 @@ display: none;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 4%;
+  margin-bottom: 16px;
+  width: 100%;
+  flex-grow: 1;
 }
 .footer-input:hover,.footer-input:focus{
   cursor: pointer;
@@ -636,6 +665,7 @@ display: none;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  border-radius: 4px;
 }
 .modal-overlay{
   width: 100vw;
@@ -792,4 +822,13 @@ display: none;
   position: absolute;
   right: 24px;
   top: 24px;
+}
+.footer-logo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4D5AE5;
+  display: flex;
+  justify-content: center;
 }
