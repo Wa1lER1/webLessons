@@ -713,6 +713,9 @@ display: none;
   .footer-button{
     padding: 8px 24px 6px;
   }
+  .footer-input{
+    margin-bottom: 0;
+  }
 }
 .modal-overlay{
   width: 100vw;
