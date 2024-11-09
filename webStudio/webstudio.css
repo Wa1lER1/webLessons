@@ -634,7 +634,10 @@ display: none;
   letter-spacing: 4%;
   margin-bottom: 16px;
   width: 100%;
-  flex-grow: 1;
+  
+}
+.footer-third-wrap{
+  width: 100%;
 }
 .footer-input:hover,.footer-input:focus{
   cursor: pointer;
